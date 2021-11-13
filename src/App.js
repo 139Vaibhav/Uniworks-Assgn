@@ -121,6 +121,7 @@ export default class App extends React.Component {
   render() {
     return (
       <div className="App">
+        <h1 className="heading">Uniworks Assignment</h1>
         <div className="row">
           <div className="column">
             <Image src={pic1} aspectRatio='0.89/2' />

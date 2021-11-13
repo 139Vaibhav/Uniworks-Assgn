@@ -1,7 +1,16 @@
+.heading{
+  padding: 20px;
+  text-align: center;
+  background: #1abc9c;
+  color: white;
+  font-size: 30px;
+}
+
 .column {
   float: left;
-  width: 48%;
+  width: 47%;
   padding-left: 15px;
+  padding-right: 15px;
 }
 
 .row {
@@ -9,7 +18,7 @@
   margin-left: auto;
   margin-right: auto;
   width: 90%;
-  margin-top: 2%;
+  margin-top: 5%;
 }
 
 .row::after {
@@ -21,13 +30,14 @@
 .btn {
   float: left;
   margin-top: 2%;
+  margin-bottom: 2%;
   margin-left: 7%;
   margin-right: 2%;
   width: 15%;
 }
 
-.txt-area {
-  position: fixed;
-  bottom: 0;
-  right: 6.5%;
+@media screen and (max-width: 500px) {
+  .column {
+    width: 90%;
+  }
 }
